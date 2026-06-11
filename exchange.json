@@ -1,0 +1,48 @@
+{
+  "main": "agent-network.yaml",
+  "name": "sf-servicenow-agent-network",
+  "classifier": "agent-network",
+  "organizationId": "c934922e-9584-4926-9a45-b7cc6586e72d",
+  "descriptorVersion": "1.0.0",
+  "tags": [],
+  "metadata": {
+    "variables": {
+      "salesforce": {
+        "agent": {
+          "url": {
+            "description": "Salesforce Agent URL",
+            "default": "",
+            "secret": false
+          }
+        }
+      },
+      "servicenow": {
+        "agent": {
+          "url": {
+            "description": "ServiceNow Agent URL",
+            "default": "",
+            "secret": false
+          }
+        }
+      },
+      "ingressgw": {
+        "url": {
+          "description": "Ingress Gateway URL",
+          "default": "",
+          "secret": false
+        }
+      },
+      "openai": {
+        "apiKey": {
+          "description": "OpenAI API key",
+          "default": "",
+          "secret": true
+        }
+      }
+    }
+  },
+  "dependencies": [],
+  "groupId": "c934922e-9584-4926-9a45-b7cc6586e72d",
+  "assetId": "sf-servicenow-agent-network",
+  "version": "1.0.1"
+}
